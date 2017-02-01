@@ -1,0 +1,248 @@
+@font-face{
+	font-family: Avenir;
+	src: url(fonts/AvenirLTStd-Roman.otf),
+			url(fonts/AvenirLTStd-Oblique.otf),
+			url(fonts/AvenirLTStd-MediumOblique.otf),
+			url(fonts/AvenirLTStd-Medium.otf),
+			url(fonts/AvenirLTStd-LightOblique.otf),
+			url(fonts/AvenirLTStd-Light.otf),
+			url(fonts/AvenirLTStd-HeavyOblique.otf),
+			url(fonts/AvenirLTStd-Heavy.otf),
+			url(fonts/AvenirLTStd-BookOblique.otf),
+			url(fonts/AvenirLTStd-Book.otf),
+			url(fonts/AvenirLTStd-BlackOblique.otf),
+			url(fonts/AvenirLTStd-Black.otf),
+			;
+}
+* {
+  font-family: 'Avenir';'Trebuchet', 'Helvetica', sans-serif,
+}
+
+body{
+  background-color:#ff3600;
+}
+
+.button-m, .button-f, .content-m, .content-f, .content-m-a, .content-f-a, .content-m-l, .content-f-l, .content-m-b, .content-f-b{
+  cursor:pointer;
+}
+#top {
+  width: 100%;
+  background-color: #efefef;
+  height: 50px;
+  display: block;
+  text-align: center;
+  padding: 1.25% 0 2.5% 0;
+  text-transform: uppercase;
+  color: #ff3600;
+  font-size: 14pt;
+  letter-spacing: .5pt;
+  margin-top: 25%;
+}
+#bottom {
+  width: 100%;
+  background-color: #efefef;
+  height: 50px;
+  display: block;
+  text-align: center;
+  padding: 1.5% 0 2.5% 0;
+  color: #ff3600;
+  font-size: 12pt;
+  font-weight:200;
+}
+#container {
+  width: 100%;
+  margin: auto;
+  background-color:#efefef;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.col-left {
+  float: left;
+  width: 50%;
+  margin: auto;
+  background-color: #ff4a1a;
+}
+
+.col-right {
+  float: left;
+  width: 50%;
+  margin: auto;
+  background-color: #ffa992;
+}
+
+.heading-male {
+  font-size: 20pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+  background-color: #ff3600;
+  color: #ffffff;
+  padding: 5%;
+}
+
+.heading-female {
+  font-size: 20pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+  background-color: #ffa992;
+  color: #ffffff;
+  padding: 5%;
+}
+
+.left-p {
+  display: block;
+  text-align: left;
+}
+
+.right-p {
+  display: block;
+  text-align: left;
+}
+
+.ethnicity-white-male {
+  background-color: #ff4a1a;
+  color: #fff;
+  font-size: 18pt;
+  padding: 2.5%;
+}
+
+.ethnicity-asian-male {
+  background-color: #ff683f;
+  color: #fff;
+  font-size: 18pt;
+  padding: 2.5%;
+}
+
+.ethnicity-latinx-male {
+  background-color: #ff8e70;
+  color: #fff;
+  font-size: 18pt;
+  padding: 2.5%;
+}
+
+.ethnicity-black-male {
+  background-color: #ffa992;
+  color: #fff;
+  font-size: 18pt;
+  padding: 2.5%;
+  text-decoration: line-through;
+}
+
+.author-white {
+  background-color: #ff4a1a;
+  color: #fff;
+  font-style: italic;
+  font-size: 10pt;
+  margin: 1% 2.5% 0% 5%;
+  
+}
+.author-asian {
+  background-color: #ff683f;
+  color: #fff;
+  font-style: italic;
+  font-size: 10pt;
+  margin: 1% 2.5% 0% 5%;
+}
+.author-latinx {
+  background-color:  #ff8e70;
+  color: #fff;
+  font-style: italic;
+  font-size: 10pt;
+   margin: 1% 2.5% 0% 5%;
+  
+}
+.author-name {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 1pt;
+  margin-top: 15pt;
+  margin-bottom: 2.5pt;
+  
+  
+}
+
+.ethnicity-white-female {
+  background-color: #ff8e70;
+  color: #fff;
+  font-size: 18pt;
+  padding: 2.5%;
+}
+.ethnicity-asian-female {
+  background-color: #ff683f;
+  color: #fff;
+  font-size: 18pt;
+  padding: 2.5%;
+  text-decoration: line-through;
+}
+.ethnicity-latinx-female {
+  background-color: #ff4a1a;
+  color: #fff;
+  font-size: 18pt;
+  padding: 2.5%;
+  text-decoration: line-through;
+}
+.ethnicity-black-female {
+  background-color: #ff3600;
+  color: #fff;
+  font-size: 18pt;
+  padding: 2.5%;
+  text-decoration: line-through
+}
+
+.author-white-f {
+  background-color: #ff8e70;
+  color: #fff;
+  font-style: italic;
+  font-size: 10pt;
+   margin: 1% 2.5% 0% 5%;
+}
+
+.content-m, .content-m-a, .content-m-l, .content-m-b, .inner-content-m, .inner-content-m-a, .inner-content-m-l, .inner-content-m-b, .content-f, .content-f-a, .content-f-l, .content-f-b, .inner-content-f, .inner-content-f-a, .inner-content-f-l, .inner-content-f-b {
+  display: none;
+}
+
+.arrow{
+	display:inline;
+	float: right;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+
+/* Clear Float */
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
