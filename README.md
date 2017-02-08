@@ -1,2 +1,2 @@
-# interaction-2-project-1
+# dgd-264-project-one-ewilson
 A recontextualization of a collection of graphic novels. This project explores the overwhelming Ethno-Gendered disparity among the collection of graphic novels. It, like American society as a whole, is dominated by white males. This recontextualizing exercise helps to see the collection in a more socially-conscious way than simply a grid of photos of the individual books.
